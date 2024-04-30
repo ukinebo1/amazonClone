@@ -10,6 +10,7 @@ body{
 a{
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
 }
 nav{
     background: #131921;
@@ -82,3 +83,42 @@ nav{
     margin: 0px 15px;
 }
 
+/* nav bottom */
+.nav-bottom{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8px 20px;
+    background-color: #232f3e;
+    color: #fff;
+    font-size: 15px;
+}
+.nav-bottom div{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    gap: 5px;
+}
+.hero-slider ul{
+    display: flex;
+    overflow-y: hidden;
+}
+.hero-img{
+    max-width: 100%;
+    mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
+}
+.hero-slider a{
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    padding: 5vh 1vw;
+    background-color: #ffffff4f;
+    color: #0000007b;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+}
+.control-next{
+    right: 0;
+}
